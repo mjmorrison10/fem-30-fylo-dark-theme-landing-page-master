@@ -302,13 +302,26 @@ header {
   background-color: var(--color-Dark-Blue-testimonials-background);
   margin: 1rem;
   padding: 2rem;
+
 }
+
+.page-4-start {
+    position: relative;
+}
+
+.page-4-quote {
+    position: absolute;
+    top: -2.25rem;
+    left: -0.5rem;
+    z-index: -1;
+}
+
 
 .page-4 h2 {
   font-family: var(--ff-Open-Sans-Body);
   font-weight: var(--fontWeight-normal);
   margin: 0 0 1rem 0;
-  /* font-family: var(--ff-Raleway-Headings-Call-to-actions-Header-Navigation); */
+  max-width: 36ch
 }
 
 .name-card {
