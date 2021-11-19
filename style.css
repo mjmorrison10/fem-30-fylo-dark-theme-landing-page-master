@@ -570,6 +570,8 @@ footer {
 .attribution {
   position: absolute;
   bottom: 0;
+  right: 0;
+  left: 0;
   width: 100%;
   font-size: 11px;
   text-align: center;
@@ -637,5 +639,7 @@ footer {
   .social-media {
     justify-content: center;
   }
+
+
 }
 
